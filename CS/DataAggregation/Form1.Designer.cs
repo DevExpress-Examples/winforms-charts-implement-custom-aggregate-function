@@ -54,7 +54,6 @@
         series1};
             this.chartControl.Size = new System.Drawing.Size(710, 373);
             this.chartControl.TabIndex = 0;
-            this.chartControl.DoubleClick += new System.EventHandler(this.chartControl1_DoubleClick);
             // 
             // Form1
             // 

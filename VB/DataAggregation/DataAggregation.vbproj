@@ -6,7 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{096AE753-0581-494A-9477-4CA3934D9339}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <AssemblyName>DataAggregation</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -48,16 +49,36 @@
     <Import Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Charts.v18.1.Core, Version=18.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Data.v18.1, Version=18.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Printing.v18.1.Core, Version=18.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Utils.v18.1, Version=18.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraBars.v18.1, Version=18.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraCharts.v18.1, Version=18.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraCharts.v18.1.UI, Version=18.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraCharts.v18.1.Wizard, Version=18.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraEditors.v18.1, Version=18.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraPrinting.v18.1, Version=18.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Charts.v18.1.Core, Version=18.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Data.v18.1, Version=18.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v18.1.Core, Version=18.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v18.1, Version=18.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v18.1, Version=18.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v18.1, Version=18.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v18.1.UI, Version=18.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v18.1.Wizard, Version=18.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v18.1, Version=18.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v18.1, Version=18.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
